@@ -1,6 +1,6 @@
-#Chunyang Cao, 02/11/2026, Assignment_02
+# Chunyang Cao, 02/11/2026, Assignment_02
 
-##Descriptions of the tasks
+## Descriptions of the tasks
 
 Task 1: Set up workspace and create data folder
 
@@ -14,7 +14,7 @@ Task 5: Create bash aliases
 
 Task 6: Document everything in README.md
 
-##Directory structure
+## Directory structure
 
 data
 
@@ -24,9 +24,9 @@ data
 
 README.md
 
-##All commands used
+## All commands used
 
-###Local:
+### Local:
 
 ftp ftp.ncbi.nlm.nih.gov
 
@@ -42,7 +42,7 @@ md5sum GCF_000005845.2_ASM584v2_genomic.gff.gz
 
 nano README.md
 
-###HPC:
+### HPC:
 
 cd SUPERCOMPUTING/assignments/assignment_02
 
@@ -62,7 +62,7 @@ nano .bashrc
 
 source ~/.bashrc
 
-##MD5 hashes
+## MD5 hashes
 
 c13d459b5caa702ff7e1f26fe44b8ad7  GCF_000005845.2_ASM584v2_genomic.fna.gz
 
@@ -70,11 +70,11 @@ c13d459b5caa702ff7e1f26fe44b8ad7  GCF_000005845.2_ASM584v2_genomic.fna.gz
 
 matched
 
-##Reflection
+## Reflection
 
 I first tried using cd to navigate to the path in NCBI and it showed connection refused. Then I typed passive and tried again, but it said no transfer time out. Hence, I directly used wget and the link to the files. There was also error showed when running source ~/.bashrc, but the new alias were successfully enabled.
 
-##Descriptions for alias
+## Descriptions for alias
 
 alias u: Go to the parent directory. Clear the screen. Show the current directory and the content of current directory.
 
