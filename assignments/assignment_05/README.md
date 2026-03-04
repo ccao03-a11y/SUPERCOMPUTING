@@ -1,4 +1,3 @@
-a5
 # Chunyang Cao, 03/04/2026, Assignment_05
 
 ## Descriptions
