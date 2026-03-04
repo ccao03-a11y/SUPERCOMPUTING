@@ -19,7 +19,7 @@ mkdir raw
 
 mkdir trimmed
 
-## Write a script in scripts/ to download and prepare fastq data
+### Write a script in scripts/ to download and prepare fastq data
 
 cd ..
 
